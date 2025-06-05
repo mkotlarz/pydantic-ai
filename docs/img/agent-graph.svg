@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="150">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black" />
+    </marker>
+  </defs>
+  <circle cx="20" cy="75" r="10" fill="black" />
+  <text x="15" y="70" fill="white" font-size="12">S</text>
+
+  <rect x="60" y="50" width="110" height="50" fill="#cfe2ff" stroke="black" />
+  <text x="115" y="80" text-anchor="middle" font-size="12">UserPromptNode</text>
+
+  <rect x="200" y="50" width="130" height="50" fill="#e2f0d9" stroke="black" />
+  <text x="265" y="80" text-anchor="middle" font-size="12">ModelRequestNode</text>
+
+  <rect x="350" y="50" width="120" height="50" fill="#fff2cc" stroke="black" />
+  <text x="410" y="80" text-anchor="middle" font-size="12">CallToolsNode</text>
+
+  <circle cx="520" cy="75" r="10" fill="black" />
+  <text x="515" y="70" fill="white" font-size="12">E</text>
+
+  <path d="M30 75 H60" stroke="black" marker-end="url(#arrow)" />
+  <path d="M170 75 H200" stroke="black" marker-end="url(#arrow)" />
+  <path d="M330 75 H350" stroke="black" marker-end="url(#arrow)" />
+  <path d="M470 75 H510" stroke="black" marker-end="url(#arrow)" />
+  <path d="M470 75 C470 120 250 120 250 75" fill="none" stroke="black" marker-end="url(#arrow)" />
+</svg>
